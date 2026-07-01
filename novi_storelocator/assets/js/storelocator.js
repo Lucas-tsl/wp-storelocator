@@ -72,6 +72,21 @@ let key = settings['apikey']
 let btncolor = settings['btncolor']
 let btncolorbg = settings['btncolorbg']
 
+// Lien vers la fiche Google Maps du magasin (recherche par nom + adresse) : Google y
+// maintient déjà les horaires, le statut "ouvert maintenant" et les avis, donc pas besoin
+// de récupérer/stocker ces données nous-mêmes (et pas d'API Google Cloud nécessaire).
+function googleMapsListingUrl(store) {
+    const query = [store.name, store.address1, store.postcode, store.city].filter(Boolean).join(' ');
+    return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(query);
+}
+
+function googleMapsListingLink(store) {
+    if (!store || !store.name) {
+        return '';
+    }
+    return "<a class='sl-maps-link' href='" + googleMapsListingUrl(store) + "' target='_blank' rel='noopener' onclick='event.stopPropagation();'>Horaires &amp; avis (Google Maps)</a>";
+}
+
 // Bouton "Je découvre" : n'apparaît que si le magasin a une info qui n'est pas
 // déjà visible sur la carte/fiche de base (téléphone, ou service signature).
 function ficheMagasinHasExtraInfo(store) {
@@ -301,7 +316,7 @@ if (hasStoreLocatorDom && typeof L !== 'undefined') {
                             var signature = "";
                         }
 
-                        marker[i].bindPopup("<div class='popup-marker'><div class='popup-info'><b>"+obj.name+"</b><b>"+obj.address1+", "+obj.postcode+" "+obj.city+"</b>"+adress2texttip + signature + "<div class='sl-card-actions'><a class='sl-btn' style='color:"+btncolor+"; background-color:"+btncolorbg+";' onclick='event.stopPropagation(); ouvrirTrajetGoogleMapsCoordonnees("+obj.latitude+","+obj.longitude+")'>J'Y VAIS</a>" + ficheMagasinButton(obj) + "</div></div></div>");
+                        marker[i].bindPopup("<div class='popup-marker'><div class='popup-info'><b>"+obj.name+"</b><b>"+obj.address1+", "+obj.postcode+" "+obj.city+"</b>"+adress2texttip + signature + "<div class='sl-card-actions'><a class='sl-btn' style='color:"+btncolor+"; background-color:"+btncolorbg+";' onclick='event.stopPropagation(); ouvrirTrajetGoogleMapsCoordonnees("+obj.latitude+","+obj.longitude+")'>J'Y VAIS</a>" + ficheMagasinButton(obj) + "</div>" + googleMapsListingLink(obj) + "</div></div>");
                     }
                 }
             })
@@ -685,7 +700,7 @@ function generate_mag_list(c_com, c_dep, marker_ids, data_found) {
                 signature = "<b style='color: #bd7639'>soins en institut</b><br>";
             }
 
-            listInfo.innerHTML += "<div class='sl-card' id='card-" + k + "' onclick='marker_localize(" + marker_ids[k] + ")'><div class='sl-card-title' id='card-title-" + k + "'>" + data_found[k].name + "</div><div class='sl-card-subtitle' id='card-subtitle-" + k + "'>" + data_found[k].address1 + ", " + data_found[k].postcode + " " + data_found[k].city + "</div>" + adress2text + signature + "<div class='sl-card-actions'><a class='sl-btn' style='margin-top:15px; color:" + btncolor + "; background-color:" + btncolorbg + ";' onclick='event.stopPropagation(); ouvrirTrajetGoogleMapsCoordonnees(" + data_found[k].latitude + ", " + data_found[k].longitude + ")'>J'Y VAIS</a>" + ficheMagasinButton(data_found[k]) + "</div></div>";
+            listInfo.innerHTML += "<div class='sl-card' id='card-" + k + "' onclick='marker_localize(" + marker_ids[k] + ")'><div class='sl-card-title' id='card-title-" + k + "'>" + data_found[k].name + "</div><div class='sl-card-subtitle' id='card-subtitle-" + k + "'>" + data_found[k].address1 + ", " + data_found[k].postcode + " " + data_found[k].city + "</div>" + adress2text + signature + "<div class='sl-card-actions'><a class='sl-btn' style='margin-top:15px; color:" + btncolor + "; background-color:" + btncolorbg + ";' onclick='event.stopPropagation(); ouvrirTrajetGoogleMapsCoordonnees(" + data_found[k].latitude + ", " + data_found[k].longitude + ")'>J'Y VAIS</a>" + ficheMagasinButton(data_found[k]) + "</div>" + googleMapsListingLink(data_found[k]) + "</div>";
         }
     }
 }
