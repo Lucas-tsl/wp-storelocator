@@ -9,9 +9,9 @@ Plugin WordPress utilisé sur [lessenteursgourmandes.fr](https://lessenteursgour
 - `novi_storelocator/assets/js/storelocator.js` — logique front : carte Leaflet, recherche par ville/code postal, calcul des magasins les plus proches, fiches de la liste, modale "Je découvre" (horaires + statut ouvert/fermé calculés côté client, téléphone, lien Google Maps).
 - `novi_storelocator/assets/js/fiche-magasin.js` — mini-carte pour la page `[fiche_magasin]`.
 - `novi_storelocator/assets/css/storelocator.css` — styles du store locator, de la modale et de la fiche magasin.
-- `novi_storelocator/assets/json/stores.json` — base des magasins (générée depuis un export CSV du Google Sheet, via la page d'admin du plugin). 47 magasins ont un champ `opening_hours` enrichi depuis OpenStreetMap (voir `osm-opening-hours.csv` et issue #2).
+- `novi_storelocator/assets/json/stores.json` — base des magasins (générée depuis un export CSV du Google Sheet, via la page d'admin du plugin). 47 magasins ont un champ `opening_hours` enrichi depuis OpenStreetMap (issue #2). 267 magasins ont en plus des champs `brand_group`/`brand_description`/`brand_image`/`brand_website`/`network_type`/`store_category` identifiant l'enseigne hôte (Beauty Success, Galeries Lafayette, So Cut, etc.), affichés dans la modale "Je découvre".
 - `novi_storelocator/assets/json/communes.json` — référentiel des communes/codes postaux pour la recherche.
-- `osm-opening-hours.csv` — horaires récupérés via l'API Overpass (OpenStreetMap), à reporter dans le Google Sheet source pour survivre au prochain export CSV.
+- `donnees-beautysuccesss.csv` — colonnes de marque (`brand_group`, `brand_description`, `brand_image`, `brand_website`, `network_type`, `store_category`) pour 267 magasins, à reporter dans le Google Sheet source pour survivre au prochain export CSV. Dérivé de `donnespointsdeventesbequtysuccess/store-locator-enriched.csv` par correspondance nom+ville (les horaires de ce fichier source sont en texte français et ne sont **pas** repris : incompatibles avec le parseur JS qui attend le format horaire OSM, ex. `Mo-Fr 10:00-19:00`).
 - `lsg_store_locator_database.xlsx` — export de référence de la base magasins.
 
 ## Fonctionnement

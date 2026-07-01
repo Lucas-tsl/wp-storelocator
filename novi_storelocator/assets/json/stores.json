@@ -54,7 +54,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-19:30",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "4",
@@ -73,7 +79,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-20:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "5",
@@ -90,7 +102,13 @@
         "Full Address": "Angers 49100 6 Rue d'Alsace France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "6",
@@ -160,7 +178,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Sa 10:00-20:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "10",
@@ -196,7 +220,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Sa 10:00-19:30; Su off",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "12",
@@ -213,7 +243,13 @@
         "Full Address": "Belfort 90000 24 Fbg de France France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "13",
@@ -232,7 +268,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-20:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "14",
@@ -251,7 +293,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Fr 10:00-19:00; Sa 09:30-19:30",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "15",
@@ -270,7 +318,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-20:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "16",
@@ -323,7 +377,13 @@
         "Full Address": "Lieusaint 77127 All. du Préambule France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "19",
@@ -340,7 +400,13 @@
         "Full Address": "Chalon-sur-Saône 71100 17 Bd de la République France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "20",
@@ -359,7 +425,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Sa 10:00-19:30",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "21",
@@ -378,7 +450,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-20:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "22",
@@ -446,7 +524,13 @@
         "Full Address": "La Roche-sur-Yon 85000 18 Rue Georges Clemenceau France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "26",
@@ -465,7 +549,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Su 10:00-19:30",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "27",
@@ -482,7 +572,13 @@
         "Full Address": "Le Mans 72000 17-21 Rue des Minimes France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "28",
@@ -499,7 +595,13 @@
         "Full Address": "Libourne 33500 21 Rue Gambetta France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "29",
@@ -516,7 +618,13 @@
         "Full Address": "Limoges 87000 6 Rue Prte Tourny France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "30",
@@ -533,7 +641,13 @@
         "Full Address": "Lorient 56100 10 Pl. Alsace Lorraine France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "31",
@@ -656,7 +770,13 @@
         "Full Address": "Montauban 82000 37-39 Rue Bessières France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "38",
@@ -675,7 +795,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Sa 10:00-20:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "39",
@@ -730,7 +856,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Tu-Sa 10:00-19:00; Mo 14:00-19:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "42",
@@ -749,7 +881,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-20:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "43",
@@ -768,7 +906,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-20:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "44",
@@ -787,7 +931,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Sa 10:00-19:30",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "45",
@@ -806,7 +956,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-20:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "46",
@@ -861,7 +1017,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Fr 09:30-19:30; Sa 09:30-20:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "49",
@@ -918,7 +1080,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Sa 10:00-19:30",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "52",
@@ -937,7 +1105,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Sa 10:00-19:30",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "53",
@@ -975,7 +1149,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-20:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "55",
@@ -994,7 +1174,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo 14:30-19:30; Tu-Sa 10:00-19:30",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Galeries Lafayette",
+        "network_type": "chain",
+        "store_category": "department_store",
+        "brand_description": "Galeries Lafayette est une enseigne française de grands magasins.",
+        "brand_image": "https://upload.wikimedia.org/wikipedia/fr/7/7f/GaleriesLafayettelogo.jpg",
+        "brand_website": "https://www.galerieslafayette.com/"
     },
     {
         "id_store": "56",
@@ -1028,7 +1214,12 @@
         "Full Address": "Saint-Paul 97460 49 Rue du Commerce La Réunion ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "58",
@@ -1045,7 +1236,12 @@
         "Full Address": "Baie-Mahault 97122 Bd Destrellan Guadeloupe ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "59",
@@ -1062,7 +1258,12 @@
         "Full Address": "Djibouti  Djibouti, bawadi mall Djibouti ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "60",
@@ -1079,7 +1280,12 @@
         "Full Address": "PERIGUEUX 24000 9 place Bugeaud France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "61",
@@ -1098,7 +1304,12 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Tu-Sa 09:00-19:00; Mo 10:00-19:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "62",
@@ -1115,7 +1326,12 @@
         "Full Address": "TRELISSAC 24750 CC Leclerc La Feuilleraie France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "63",
@@ -1132,7 +1348,12 @@
         "Full Address": "LIBOURNE 33500 Parfumerie et institut à C.C. Carrefour France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "64",
@@ -1149,7 +1370,12 @@
         "Full Address": "GUJAN MESTRAS 33470 C.C. Hyper U France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "65",
@@ -1166,7 +1392,12 @@
         "Full Address": "LIMOUX 11300 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "66",
@@ -1183,7 +1414,12 @@
         "Full Address": "MONT DE MARSAN 40000 73 rue Léon Gambetta France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "67",
@@ -1200,7 +1436,12 @@
         "Full Address": "MARMANDE 47200 1 rue Charles de Gaulle France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "68",
@@ -1217,7 +1458,12 @@
         "Full Address": "LA BAULE 44500 1-3 avenue du général de Gaulle France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "69",
@@ -1234,7 +1480,12 @@
         "Full Address": "PUILBOREAU 17138 C.C. Hyper U La Rochelle Beaulieu France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "70",
@@ -1251,7 +1502,12 @@
         "Full Address": "AUCH 32000 25 avenue d'Alsace France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "71",
@@ -1268,7 +1524,12 @@
         "Full Address": "PESSAC 33600 C.C. Géant Casino Pessac Bersol France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "72",
@@ -1287,7 +1548,12 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Su 10:00-19:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "73",
@@ -1304,7 +1570,12 @@
         "Full Address": "ARCACHON 33120 12 cours Lamarque de Plaisance France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "74",
@@ -1321,7 +1592,12 @@
         "Full Address": "ESSEY LES NANCY 54270 C.C. Cora France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "75",
@@ -1338,7 +1614,12 @@
         "Full Address": "ISTRES 13800 14 allée Jean Jaurès France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "76",
@@ -1355,7 +1636,12 @@
         "Full Address": "AUXERRE 89000 C.C. Géant France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "77",
@@ -1374,7 +1660,12 @@
         "date_upd": "",
         "icone": "rouge",
         "opening_hours": "Tu-Fr 10:00-19:00; Sa 09:30-19:00; Su 10:00-19:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "78",
@@ -1391,7 +1682,12 @@
         "Full Address": "MONTAUBAN 82000 C.C. Leclerc Aussonne France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "79",
@@ -1408,7 +1704,12 @@
         "Full Address": "PAU 64000 C.C. Leclerc Univers France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "80",
@@ -1425,7 +1726,12 @@
         "Full Address": "BIGANOS 33380 C.C. Auchan France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "81",
@@ -1442,7 +1748,12 @@
         "Full Address": "BARBEREY ST SULPICE 10600 C.C. Géant Casino St Sulpice France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "82",
@@ -1459,7 +1770,12 @@
         "Full Address": "CARS 33390 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "83",
@@ -1476,7 +1792,12 @@
         "Full Address": "URRUGNE 64122 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "84",
@@ -1493,7 +1814,12 @@
         "Full Address": "PIERRY 51530 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "85",
@@ -1510,7 +1836,12 @@
         "Full Address": "GAILLAC 81600 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "86",
@@ -1527,7 +1858,12 @@
         "Full Address": "BELFORT 90008 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "87",
@@ -1544,7 +1880,12 @@
         "Full Address": "MONETEAU 89470 C.C. Cora France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "88",
@@ -1561,7 +1902,12 @@
         "Full Address": "ALLONNES 72700 C.C. Leclerc Medicis France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "89",
@@ -1578,7 +1924,12 @@
         "Full Address": "GIEN 45500 C.C. Auchan France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "90",
@@ -1595,7 +1946,12 @@
         "Full Address": "DIGNE LES BAINS 4000 42 boulevard Gassendi France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "91",
@@ -1614,7 +1970,12 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Tu-Sa 09:00-13:00,15:00-19:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "92",
@@ -1631,7 +1992,12 @@
         "Full Address": "VILLENAVE D ORNON 33140 C.C. Géant Bordeaux Sud France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "93",
@@ -1648,7 +2014,12 @@
         "Full Address": "SAINTES 17100 C.C. Hyper U France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "94",
@@ -1665,7 +2036,12 @@
         "Full Address": "ST LO 50000 22 rue maréchal Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "95",
@@ -1682,7 +2058,12 @@
         "Full Address": "FLERS 61100 C.C Leclerc 93 rue de la chaussée France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "96",
@@ -1699,7 +2080,12 @@
         "Full Address": "AVRANCHES 50300 25 rue de la constitution France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "97",
@@ -1716,7 +2102,12 @@
         "Full Address": "PERTUIS 84120 C.C. Hyper U Lubéron France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "98",
@@ -1733,7 +2124,12 @@
         "Full Address": "LE LAVANDOU 83980 21 avenue général De Gaulle France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "99",
@@ -1750,7 +2146,12 @@
         "Full Address": "ROTS 14980 C.C. Cora France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "100",
@@ -1767,7 +2168,12 @@
         "Full Address": "DAX 40100 C.C. Carrefour France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "101",
@@ -1784,7 +2190,12 @@
         "Full Address": "BOULAZAC ISLE MANOIRE 24750 CC du Périgord Blanc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "102",
@@ -1801,7 +2212,12 @@
         "Full Address": "CHAMPAGNOLE 39300 8 avenue de la République France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "103",
@@ -1818,7 +2234,12 @@
         "Full Address": "CHATILLON SUR SEINE 21400 C.C. Auchan - Actipol de Chatillon France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "104",
@@ -1835,7 +2256,12 @@
         "Full Address": "PEZENAS 34120 C.C. Carrefour Market France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "105",
@@ -1852,7 +2278,12 @@
         "Full Address": "CUSSET 3300 C.C. Carrefour France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "106",
@@ -1869,7 +2300,12 @@
         "Full Address": "LIBOURNE 33500 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "107",
@@ -1886,7 +2322,12 @@
         "Full Address": "ST CERE 46400 place de la République France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "108",
@@ -1903,7 +2344,12 @@
         "Full Address": "FAGNIERES 51510 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "109",
@@ -1920,7 +2366,12 @@
         "Full Address": "SEZANNE 51120 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "110",
@@ -1939,7 +2390,12 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo 14:00-19:00; Tu-Th 09:00-12:00,14:00-19:00; Fr-Sa 09:00-19:00; Su off",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "111",
@@ -1956,7 +2412,12 @@
         "Full Address": "CAUDRY 59540 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "112",
@@ -1973,7 +2434,12 @@
         "Full Address": "SELESTAT 67600 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "113",
@@ -1990,7 +2456,12 @@
         "Full Address": "ST CLAUDE 39200 les galeries France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "114",
@@ -2007,7 +2478,12 @@
         "Full Address": "HIRSINGUE 68560 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "115",
@@ -2024,7 +2500,12 @@
         "Full Address": "ST JEAN D ANGELY 17400 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "116",
@@ -2041,7 +2522,12 @@
         "Full Address": "LES HERBIERS 85500 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "117",
@@ -2058,7 +2544,12 @@
         "Full Address": "VILLEFRANCHE DE ROUERGUE 12200 1 rue de la République France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "118",
@@ -2075,7 +2566,12 @@
         "Full Address": "ARGELES SUR MER 66700 C.C. Intermarché France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "119",
@@ -2092,7 +2588,12 @@
         "Full Address": "CREYSSE 24100 C.C. Intermarché France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "120",
@@ -2111,7 +2612,12 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Su 09:30-19:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "121",
@@ -2128,7 +2634,12 @@
         "Full Address": "VAUX SUR MER 17640 C.C. Intermarché France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "122",
@@ -2145,7 +2656,12 @@
         "Full Address": "COUTRAS 33230 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "123",
@@ -2162,7 +2678,12 @@
         "Full Address": "LESNEVEN 29260 9 place général Le Flo France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "124",
@@ -2179,7 +2700,12 @@
         "Full Address": "LANDERNEAU 29800 23 rue de la tour d'Auvergne France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "125",
@@ -2196,7 +2722,12 @@
         "Full Address": "COSNE COURS SUR LOIRE 58200 9 rue du commerce France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "126",
@@ -2213,7 +2744,12 @@
         "Full Address": "TALENCE 33400 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "127",
@@ -2230,7 +2766,12 @@
         "Full Address": "BERGERAC 24100 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "128",
@@ -2247,7 +2788,12 @@
         "Full Address": "LORIENT 56100 C.C. Carrefour France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "129",
@@ -2264,7 +2810,12 @@
         "Full Address": "LEMPDES 63370 C.C. Cora - boutique 122 France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "130",
@@ -2281,7 +2832,12 @@
         "Full Address": "CLERMONT FERRAND 63100 C.C. Auchan France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "131",
@@ -2315,7 +2871,12 @@
         "Full Address": "ST MARTIN DES CHAMPS 50300 C.C. Carrefour France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "133",
@@ -2332,7 +2893,12 @@
         "Full Address": "PLEUVEN 29170 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "134",
@@ -2349,7 +2915,12 @@
         "Full Address": "PERIGUEUX 24000 C.C. Privilège France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "135",
@@ -2366,7 +2937,12 @@
         "Full Address": "LANNEMEZAN 65300 51 place de la République France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "136",
@@ -2383,7 +2959,12 @@
         "Full Address": "REIMS 51100 CC Hyper U - Reims Village ZAC La Croix Blandin France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "137",
@@ -2400,7 +2981,12 @@
         "Full Address": "AVALLON 89200 C.C. Auchan France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "138",
@@ -2417,7 +3003,12 @@
         "Full Address": "STE MAXIME 83120 C.C. Carrefour France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "139",
@@ -2434,7 +3025,12 @@
         "Full Address": "ROYAN 17200 3 rue Henri Matisse France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "140",
@@ -2451,7 +3047,12 @@
         "Full Address": "HONFLEUR 14600 CC LECLERC Parc d'activité Calvados France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "141",
@@ -2485,7 +3086,12 @@
         "Full Address": "VITRY LE FRANCOIS 51300 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "143",
@@ -2502,7 +3108,12 @@
         "Full Address": "SOISY SOUS MONTMORENCY 95230 C.C. Auchan France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "144",
@@ -2519,7 +3130,12 @@
         "Full Address": "MENDE 48000 C.C Hyper U - Lot 5 Halle de Ramilles Coeur Lozère France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "145",
@@ -2536,7 +3152,12 @@
         "Full Address": "LE VESINET 78110 8 Rue Maréchal Foch France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "146",
@@ -2553,7 +3174,12 @@
         "Full Address": "MARMOUTIER 67440 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "147",
@@ -2570,7 +3196,12 @@
         "Full Address": "ST PAUL LES DAX 40990 C.C. Le Grand Mail Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "148",
@@ -2587,7 +3218,12 @@
         "Full Address": "LA SOUTERRAINE 23300 C.C. LECLERC France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "149",
@@ -2604,7 +3240,12 @@
         "Full Address": "NOTRE DAME DE SANILHAC 24660 C.C. Couture France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "150",
@@ -2621,7 +3262,12 @@
         "Full Address": "CASTELJALOUX 47700 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "151",
@@ -2640,7 +3286,12 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Tu-Sa 09:00-19:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "152",
@@ -2657,7 +3308,12 @@
         "Full Address": "SARLAT LA CANEDA 24200 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "153",
@@ -2674,7 +3330,12 @@
         "Full Address": "ST MAUR 36250 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "154",
@@ -2691,7 +3352,12 @@
         "Full Address": "PARTHENAY 79200 C.C. Hyper U France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "155",
@@ -2708,7 +3374,12 @@
         "Full Address": "PARTHENAY 79200 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "156",
@@ -2725,7 +3396,12 @@
         "Full Address": "VILLEBAROU 41000 C.C. Cora Blois 2 France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "157",
@@ -2742,7 +3418,12 @@
         "Full Address": "HAUCONCOURT 57280 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "158",
@@ -2759,7 +3440,12 @@
         "Full Address": "LEOGNAN 33850 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "159",
@@ -2778,7 +3464,12 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Sa 09:30-19:00; PH closed",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "160",
@@ -2795,7 +3486,12 @@
         "Full Address": "CESSON SEVIGNE 35510 C.C. Carrefour La Rigourdière France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "161",
@@ -2812,7 +3508,12 @@
         "Full Address": "MILLAU 12100 C.C. La Capelle France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "162",
@@ -2829,7 +3530,12 @@
         "Full Address": "THONON LES BAINS 74200 C.C. Intermarché Shopping Leman France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "163",
@@ -2846,7 +3552,12 @@
         "Full Address": "MIOS 33380 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "164",
@@ -2863,7 +3574,12 @@
         "Full Address": "ESTANCARBON 31800 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "165",
@@ -2880,7 +3596,12 @@
         "Full Address": "BARBEZIEUX ST HILAIRE 16300 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "166",
@@ -2897,7 +3618,12 @@
         "Full Address": "PONT AUDEMER 27500 33 rue de la République France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "167",
@@ -2914,7 +3640,12 @@
         "Full Address": "TASSIN LA DEMI LUNE 69160 14 promenade des tuileries France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "168",
@@ -2931,7 +3662,12 @@
         "Full Address": "GUERET 23000 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "169",
@@ -2948,7 +3684,12 @@
         "Full Address": "SARREBOURG 57400 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "170",
@@ -2965,7 +3706,12 @@
         "Full Address": "CASTRES 81100 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "171",
@@ -2982,7 +3728,12 @@
         "Full Address": "ST MAGNE DE CASTILLON 33350 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "172",
@@ -2999,7 +3750,12 @@
         "Full Address": "ANGOULEME 16021 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "173",
@@ -3016,7 +3772,12 @@
         "Full Address": "CLAIRA 66530 C.C. Carrefour France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "174",
@@ -3035,7 +3796,12 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Sa 09:30-19:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "175",
@@ -3052,7 +3818,12 @@
         "Full Address": "BIDART 64210 C.C. Intermarché Super Bidart Océan France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "176",
@@ -3069,7 +3840,12 @@
         "Full Address": "LACROIX ST OUEN 60610 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "177",
@@ -3086,7 +3862,12 @@
         "Full Address": "CASTELCULIER 47240 CC Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "178",
@@ -3103,7 +3884,12 @@
         "Full Address": "PONT L ABBE 29120 16 Rue du Chateau France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "179",
@@ -3120,7 +3906,12 @@
         "Full Address": "ST JEAN DU FALGA 9100 CC Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "180",
@@ -3137,7 +3928,12 @@
         "Full Address": "COLOMIERS 31770 9 Rue du Centre France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "181",
@@ -3154,7 +3950,12 @@
         "Full Address": "CARCASSONNE 11000 CC Géant Casino Salvaza France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "182",
@@ -3171,7 +3972,12 @@
         "Full Address": "ISSOIRE 63500 CC Carrefour France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "183",
@@ -3188,7 +3994,12 @@
         "Full Address": "BRIOUDE 43100 CC Carrefour Market France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "184",
@@ -3205,7 +4016,12 @@
         "Full Address": "HOUTAUD 25300 C.C E Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "185",
@@ -3222,7 +4038,12 @@
         "Full Address": "BISCARROSSE 40600 Centre Commercial Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "186",
@@ -3239,7 +4060,12 @@
         "Full Address": "ST JEAN DE MONTS 85160 CC Super U - Les sentiers du Marais France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "187",
@@ -3256,7 +4082,12 @@
         "Full Address": "MONTAYRAL 47500 Centre Commercial E Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "188",
@@ -3273,7 +4104,12 @@
         "Full Address": "BAULE 45130 C.C. Hyper U France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "189",
@@ -3290,7 +4126,12 @@
         "Full Address": "LA FERTE BERNARD 72400 1 Promenade du petit mail France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "190",
@@ -3307,7 +4148,12 @@
         "Full Address": "JONZAC 17500 CC Leclerc - Boutique 3 France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "191",
@@ -3326,7 +4172,12 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo-Sa 09:30-19:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "192",
@@ -3343,7 +4194,12 @@
         "Full Address": "BIAS 47300 C.C. Auchan France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "193",
@@ -3360,7 +4216,12 @@
         "Full Address": "VILLENEUVE SUR LOT 47300 9 rue de Paris France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "194",
@@ -3377,7 +4238,12 @@
         "Full Address": "CARCASSONNE 11000 C C Leclerc Rocadest France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "195",
@@ -3394,7 +4260,12 @@
         "Full Address": "WINTZENHEIM 68124 C C Leclerc Logelbach France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "196",
@@ -3411,7 +4282,12 @@
         "Full Address": "USSEL 19200 Centre commercial E Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "197",
@@ -3428,7 +4304,12 @@
         "Full Address": "MONTBELIARD 25200 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "198",
@@ -3445,7 +4326,12 @@
         "Full Address": "HONFLEUR 14600 15 rue du Dauphin France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "199",
@@ -3462,7 +4348,12 @@
         "Full Address": "DAMMARIE LES LYS 77190 Centre Commerciale LECLERC France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "200",
@@ -3479,7 +4370,12 @@
         "Full Address": "PERPIGNAN 66000 Avenue Victor Dalbiez France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "201",
@@ -3496,7 +4392,12 @@
         "Full Address": "BRUZ 35170 5 place vert buisson France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "202",
@@ -3513,7 +4414,12 @@
         "Full Address": "RENNES 35200 C.C. Carrefour alma France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "203",
@@ -3530,7 +4436,12 @@
         "Full Address": "DOL DE BRETAGNE 35120 4 rue lejamptel France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "204",
@@ -3547,7 +4458,12 @@
         "Full Address": "CHATEAU GONTIER 53200 5 place de la République France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "205",
@@ -3566,7 +4482,12 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Tu-Sa 09:00-19:00; Mo 10:00-12:00,14:00-19:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "206",
@@ -3583,7 +4504,12 @@
         "Full Address": "POISSY 78300 15 avenue du cep France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "207",
@@ -3600,7 +4526,12 @@
         "Full Address": "MOULINS LES METZ 57160 C.C. Cora France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "208",
@@ -3617,7 +4548,12 @@
         "Full Address": "ST MALO 35400 9 rue ville pépin France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "209",
@@ -3651,7 +4587,12 @@
         "Full Address": "MONTPON MENESTEROL 24700 C.C. Intermarché France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "211",
@@ -3668,7 +4609,12 @@
         "Full Address": "CESTAS 33610 C.C. gazinet nord France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "212",
@@ -3685,7 +4631,12 @@
         "Full Address": "ST ANDRE DE CUBZAC 33240 Géant Casino\/AV Europe France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "213",
@@ -3702,7 +4653,12 @@
         "Full Address": "LA TESTE DE BUCH 33260 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "214",
@@ -3736,7 +4692,12 @@
         "Full Address": "PLOERMEL 56800 9 place Jean-Marie de Lamennais France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "216",
@@ -3753,7 +4714,12 @@
         "Full Address": "MONTMORILLON 86500 C.C. Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "217",
@@ -3770,7 +4736,12 @@
         "Full Address": "PERONNE 80200 C.C. Intermarché France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "218",
@@ -3789,7 +4760,12 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Tu-Sa 10:00-19:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "219",
@@ -3806,7 +4782,12 @@
         "Full Address": "BAIE MAHAULT 97122 C.C. Destreland France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "220",
@@ -3823,7 +4804,12 @@
         "Full Address": "LE ROBERT 97231 C.C. Océanis France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "221",
@@ -3840,7 +4826,12 @@
         "Full Address": "LES ABYMES 97139 C.C. Milenis France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "222",
@@ -3857,7 +4848,12 @@
         "Full Address": "CONDE SUR SARTHE 61250 C.C. Carrefour France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "223",
@@ -3874,7 +4870,12 @@
         "Full Address": "DIVES SUR MER 14160 C.C. Géant Casino France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "224",
@@ -3891,7 +4892,12 @@
         "Full Address": "SENLIS 60300 C.C. Intermarché Villevert France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "225",
@@ -3908,7 +4914,12 @@
         "Full Address": "SELESTAT 67600 10 rue Robert Guidat France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "226",
@@ -3925,7 +4936,12 @@
         "Full Address": "GLANDON 87500 C.C. Intermarché France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "227",
@@ -3942,7 +4958,12 @@
         "Full Address": "BEAUVAIS 60000 CC Carrefour St Quentin France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "228",
@@ -3959,7 +4980,12 @@
         "Full Address": "BETHUNE 62400 15 rue grosse tête France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "229",
@@ -3976,7 +5002,12 @@
         "Full Address": "SOYAUX 16800 C.C. Carrefour France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "230",
@@ -3993,7 +5024,12 @@
         "Full Address": "HAGUENAU 67500 120 grand rue France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "231",
@@ -4010,7 +5046,12 @@
         "Full Address": "STE JAMME SUR SARTHE 72380 C.C Super U France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "232",
@@ -4027,7 +5068,12 @@
         "Full Address": "GRUCHET LE VALASSE 76210 C.C. Carrefour France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "233",
@@ -4044,7 +5090,12 @@
         "Full Address": "CAHORS 46000 103 boulevard Léon Gambetta France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "234",
@@ -4061,7 +5112,12 @@
         "Full Address": "LA GORGUE 59253 C.C. intermarché France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "235",
@@ -4078,7 +5134,12 @@
         "Full Address": "RUAUDIN 72230 Maine Street France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "236",
@@ -4095,7 +5156,12 @@
         "Full Address": "ARES 33740 CC Leclerc Les Portes du Bassin France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "237",
@@ -4112,7 +5178,12 @@
         "Full Address": "SARREGUEMINES 57200 5 rue poincaré France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "238",
@@ -4129,7 +5200,12 @@
         "Full Address": "BRIE COMTE ROBERT 77170 CC Hyper U France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "239",
@@ -4146,7 +5222,12 @@
         "Full Address": "LOUVIERS 27400 CC Intermarché Le Becquet France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "240",
@@ -4163,7 +5244,12 @@
         "Full Address": "SAINT-DENIS 97400 40 Rue Juliette Dodu France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "241",
@@ -4180,7 +5266,12 @@
         "Full Address": "FONSORBES 31470 Centre Commercial Carrefour Market France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "242",
@@ -4216,7 +5307,12 @@
         "Full Address": "CHASSE SUR RHONE 38670 CC Géant \"Chasse Sud\" France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "244",
@@ -4233,7 +5329,12 @@
         "Full Address": "DINAN 22100 3 place du marchix France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "245",
@@ -4250,7 +5351,9 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "spa"
     },
     {
         "id_store": "246",
@@ -4267,7 +5370,9 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "beauty_salon"
     },
     {
         "id_store": "247",
@@ -4284,7 +5389,9 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "248",
@@ -4301,7 +5408,9 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "beauty_salon"
     },
     {
         "id_store": "249",
@@ -4318,7 +5427,9 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "beauty_salon"
     },
     {
         "id_store": "250",
@@ -4337,7 +5448,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo,Sa 09:00-12:00,14:00-17:00; Tu-Fr 09:00-12:00,14:00-19:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Ideline",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Institut Idéline est un institut de beauté situé a Colpo (Morbihan), proposant soins du visage et du corps, épilation, maquillage et manucure (vernis semi-permanent) dans une ambiance zen, pour une clientèle mixte.",
+        "brand_image": "https://v-images.cdnsw.com/Root/fmuin/358695784_745290974271722_2916464136885523399_n.jpg",
+        "brand_website": "https://institutideline.sitew.fr/"
     },
     {
         "id_store": "251",
@@ -4354,7 +5471,9 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "spa"
     },
     {
         "id_store": "252",
@@ -4371,7 +5490,9 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "253",
@@ -4388,7 +5509,9 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "beauty_salon"
     },
     {
         "id_store": "254",
@@ -4405,7 +5528,9 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "255",
@@ -4422,7 +5547,9 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "256",
@@ -4439,7 +5566,9 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "257",
@@ -4456,7 +5585,10 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Citron Vert",
+        "network_type": "chain",
+        "store_category": "beauty_network"
     },
     {
         "id_store": "258",
@@ -4473,7 +5605,9 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "259",
@@ -4490,7 +5624,9 @@
         "Full Address": "220 COMMERCIAL STREET-SUITE 2 MA02657 PROVINCETOWN Etats-Unis",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "260",
@@ -4507,7 +5643,9 @@
         "Full Address": "3 chasse des ponts 50260 Rauville la bigot France",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "261",
@@ -4524,7 +5662,9 @@
         "Full Address": "5 rue espert 11430 GRUISSAN France",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "262",
@@ -4543,7 +5683,11 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Tu-Fr 09:00-19:00; Sa 09:00-18:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "network_type": "independent_local_business",
+        "store_category": "local_business",
+        "brand_description": "Au Bien Être est un institut de beauté situé a Breteuil (Oise), proposant soins du visage et du corps, massages, épilation et UV dans une ambiance conviviale et détendue.",
+        "brand_image": "https://medias.bpdm-beaute.com/medium/defaut/beaute/soins-visage-massage-1.jpg"
     },
     {
         "id_store": "263",
@@ -4560,7 +5704,9 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "264",
@@ -4577,7 +5723,9 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "265",
@@ -4594,7 +5742,9 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "266",
@@ -4611,7 +5761,9 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "267",
@@ -4628,7 +5780,9 @@
         "Full Address": "Place de la République 47350 Seyches",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "268",
@@ -4645,7 +5799,10 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "So Cut",
+        "network_type": "chain",
+        "store_category": "beauty_network"
     },
     {
         "id_store": "269",
@@ -4662,7 +5819,10 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "So Cut",
+        "network_type": "chain",
+        "store_category": "beauty_network"
     },
     {
         "id_store": "270",
@@ -4679,7 +5839,10 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "So Cut",
+        "network_type": "chain",
+        "store_category": "beauty_network"
     },
     {
         "id_store": "271",
@@ -4696,7 +5859,10 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "So Cut",
+        "network_type": "chain",
+        "store_category": "beauty_network"
     },
     {
         "id_store": "272",
@@ -4713,7 +5879,10 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "So Cut",
+        "network_type": "chain",
+        "store_category": "beauty_network"
     },
     {
         "id_store": "273",
@@ -4730,7 +5899,10 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "So Cut",
+        "network_type": "chain",
+        "store_category": "beauty_network"
     },
     {
         "id_store": "274",
@@ -4747,7 +5919,10 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "So Cut",
+        "network_type": "chain",
+        "store_category": "beauty_network"
     },
     {
         "id_store": "275",
@@ -4764,7 +5939,10 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "So Cut",
+        "network_type": "chain",
+        "store_category": "beauty_network"
     },
     {
         "id_store": "276",
@@ -4781,7 +5959,10 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "So Cut",
+        "network_type": "chain",
+        "store_category": "beauty_network"
     },
     {
         "id_store": "277",
@@ -4798,7 +5979,10 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "So Cut",
+        "network_type": "chain",
+        "store_category": "beauty_network"
     },
     {
         "id_store": "278",
@@ -4815,7 +5999,10 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "So Cut",
+        "network_type": "chain",
+        "store_category": "beauty_network"
     },
     {
         "id_store": "279",
@@ -4832,7 +6019,10 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "So Cut",
+        "network_type": "chain",
+        "store_category": "beauty_network"
     },
     {
         "id_store": "280",
@@ -4849,7 +6039,10 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "So Cut",
+        "network_type": "chain",
+        "store_category": "beauty_network"
     },
     {
         "id_store": "281",
@@ -4868,7 +6061,13 @@
         "date_upd": "",
         "icone": "",
         "opening_hours": "Mo,Th 08:30-15:30; Tu,Fr 08:30-19:00; Sa 08:00-13:00",
-        "opening_hours_source": "osm"
+        "opening_hours_source": "osm",
+        "brand_group": "Les Ciseaux de Fanny",
+        "network_type": "chain",
+        "store_category": "local_business",
+        "brand_description": "Les Ciseaux de Fanny est un salon de coiffure familial situe au coeur du village de Courcelles-sur-Nied (Moselle), proposant coupes pour hommes, femmes et enfants, colorations, mèches, extensions et lissages.",
+        "brand_image": "https://static.hdmedia.fr/fr-gt-media-54-retonfey/360/cbpQep90ib/prints/photo2049275_6.jpg?v=19",
+        "brand_website": "https://www.facebook.com/Fanny.ci57/"
     },
     {
         "id_store": "282",
@@ -4885,7 +6084,9 @@
         "Full Address": "15 avenue de la résistance 33220 PINEUILH",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "283",
@@ -4902,7 +6103,9 @@
         "Full Address": "31 Rue du Général de Gaulle, 80340 Bray-sur-Somme",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "284",
@@ -4919,7 +6122,9 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "beauty_salon"
     },
     {
         "id_store": "285",
@@ -4936,7 +6141,9 @@
         "Full Address": "4 Rue de Tanis, 50170 Pontorson, France",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "286",
@@ -4953,7 +6160,9 @@
         "Full Address": "2 Rue Reberotte-Labesse, 08300 Rethel, France",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "288",
@@ -4970,7 +6179,12 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "289",
@@ -4987,7 +6201,12 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "290",
@@ -5004,7 +6223,12 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Beauty Success",
+        "network_type": "chain",
+        "store_category": "beauty_network",
+        "brand_description": "Beauty Success est une enseigne française de parfumerie et de cosmétique.",
+        "brand_website": "https://www.beautysuccess.fr/"
     },
     {
         "id_store": "291",
@@ -5021,7 +6245,9 @@
         "Full Address": "14 rue Jeanne d’arc 87290 Châteauponsac, France",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "292",
@@ -5038,7 +6264,9 @@
         "Full Address": "Lagedijk 14, 1544 BG Zaandijk, Pays-Bas",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "293",
@@ -5055,7 +6283,9 @@
         "Full Address": "8 Rue Andre Mancey, 62470 Calonne-Ricouart, France",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     },
     {
         "id_store": "294",
@@ -5072,7 +6302,10 @@
         "Full Address": "2 Avenue Jean Monnet 42330 Saint Galmier",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "Guinot",
+        "network_type": "chain",
+        "store_category": "beauty_network"
     },
     {
         "id_store": "295",
@@ -5089,7 +6322,10 @@
         "Full Address": "1, place Lacontre, 65400 Argelès-Gazos",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "La Belle Occitane",
+        "network_type": "chain",
+        "store_category": "beauty_network"
     },
     {
         "id_store": "296",
@@ -5106,7 +6342,9 @@
         "Full Address": "Magasin L’esprit Bio",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "bio_store"
     },
     {
         "id_store": "297",
@@ -5123,7 +6361,10 @@
         "Full Address": "23, avenue des Bains à Mondorf-les-Bains, Luxembourg",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "brand_group": "LCP Parfumerie",
+        "network_type": "chain",
+        "store_category": "beauty_network"
     },
     {
         "id_store": "298",
@@ -5140,6 +6381,8 @@
         "Full Address": "239 Chemin de Couderc, 47150 Savignac-sur-Leyze, France",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "network_type": "independent_local_business",
+        "store_category": "local_business"
     }
 ]
