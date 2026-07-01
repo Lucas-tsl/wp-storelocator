@@ -337,6 +337,19 @@
     text-decoration: none;
 }
 
+.fiche-magasin-modal-hours{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.fiche-magasin-modal-hours.is-open{
+    color: #1a7f37;
+}
+
+.fiche-magasin-modal-hours.is-closed{
+    color: #b3261e;
+}
+
 .fiche-magasin-modal-signature{
     color: #bd7639;
     font-weight: 700;

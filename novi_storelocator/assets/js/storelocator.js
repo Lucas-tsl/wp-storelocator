@@ -87,15 +87,97 @@ function googleMapsListingLink(store) {
     return "<a class='sl-maps-link' href='" + googleMapsListingUrl(store) + "' target='_blank' rel='noopener' onclick='event.stopPropagation();'>Horaires &amp; avis (Google Maps)</a>";
 }
 
+// Lecture simplifiée du format horaires OSM (ex: "Mo-Fr 10:00-19:30; Sa 10:00-20:00; Su off").
+// Ne couvre pas toute la spécification (jours fériés "PH" ignorés), mais suffit pour les
+// horaires récupérés depuis OpenStreetMap sur ce jeu de données.
+const OSM_DAY_CODES = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'];
+
+function expandDaySelector(selector) {
+    const days = [];
+    selector.split(',').forEach(part => {
+        part = part.trim();
+        if (part.includes('-')) {
+            const [start, end] = part.split('-');
+            const startIdx = OSM_DAY_CODES.indexOf(start);
+            const endIdx = OSM_DAY_CODES.indexOf(end);
+            if (startIdx === -1 || endIdx === -1) {
+                return;
+            }
+            let i = startIdx;
+            while (true) {
+                days.push(OSM_DAY_CODES[i]);
+                if (i === endIdx) {
+                    break;
+                }
+                i = (i + 1) % 7;
+            }
+        } else if (OSM_DAY_CODES.includes(part)) {
+            days.push(part);
+        }
+    });
+    return days;
+}
+
+function getTodayOpeningInfo(openingHours) {
+    if (!openingHours) {
+        return null;
+    }
+    if (openingHours.trim() === '24/7') {
+        return { isOpen: true, hoursText: 'Ouvert 24h/24' };
+    }
+
+    const todayCode = OSM_DAY_CODES[new Date().getDay()];
+    let todayRule = null;
+
+    openingHours.split(';').forEach(rulePart => {
+        rulePart = rulePart.trim();
+        const match = rulePart.match(/^([A-Za-z,\-]+)\s+(.+)$/);
+        if (!match || match[1].startsWith('PH')) {
+            return;
+        }
+        if (expandDaySelector(match[1]).includes(todayCode)) {
+            todayRule = match[2].trim();
+        }
+    });
+
+    if (!todayRule || /^(off|closed)$/i.test(todayRule)) {
+        return { isOpen: false, hoursText: "Fermé aujourd'hui" };
+    }
+
+    const ranges = todayRule.split(',').map(r => r.trim()).filter(r => /^\d{2}:\d{2}-\d{2}:\d{2}$/.test(r));
+    if (ranges.length === 0) {
+        return { isOpen: false, hoursText: todayRule };
+    }
+
+    const nowMinutes = new Date().getHours() * 60 + new Date().getMinutes();
+    let isOpen = false;
+    let closingAt = '';
+    ranges.forEach(range => {
+        const [start, end] = range.split('-');
+        const [sh, sm] = start.split(':').map(Number);
+        const [eh, em] = end.split(':').map(Number);
+        if (nowMinutes >= sh * 60 + sm && nowMinutes < eh * 60 + em) {
+            isOpen = true;
+            closingAt = end;
+        }
+    });
+
+    return {
+        isOpen,
+        hoursText: isOpen ? ("Ouvert jusqu'à " + closingAt) : ("Fermé (aujourd'hui : " + ranges.join(', ') + ')')
+    };
+}
+
 // Bouton "Je découvre" : n'apparaît que si le magasin a une info qui n'est pas
-// déjà visible sur la carte/fiche de base (téléphone, ou service signature).
+// déjà visible sur la carte/fiche de base (téléphone, horaires, ou service signature).
 function ficheMagasinHasExtraInfo(store) {
     if (!store) {
         return false;
     }
     const hasPhone = Boolean(store.phone && String(store.phone).trim() !== '');
+    const hasHours = Boolean(store.opening_hours && String(store.opening_hours).trim() !== '');
     const hasSignature = store.icone === 'signature';
-    return hasPhone || hasSignature;
+    return hasPhone || hasHours || hasSignature;
 }
 
 function ficheMagasinButton(store) {
@@ -148,10 +230,15 @@ function openFicheMagasin(idStore) {
         const signatureHtml = store.icone === 'signature'
             ? "<p class='fiche-magasin-modal-signature'>Soins en institut disponibles dans ce magasin</p>"
             : "";
+        const todayInfo = getTodayOpeningInfo(store.opening_hours);
+        const hoursHtml = todayInfo
+            ? "<p class='fiche-magasin-modal-hours " + (todayInfo.isOpen ? 'is-open' : 'is-closed') + "'>" + todayInfo.hoursText + "</p>"
+            : "";
 
         content.innerHTML =
             "<h2>" + store.name + "</h2>" +
             "<p class='fiche-magasin-modal-address'>" + store.address1 + adresseLigne2 + ", " + store.postcode + " " + store.city + "</p>" +
+            hoursHtml +
             phoneHtml +
             signatureHtml +
             "<div class='fiche-magasin-modal-actions'>" +

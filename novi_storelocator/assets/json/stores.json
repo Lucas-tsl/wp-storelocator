@@ -14,7 +14,9 @@
         "Full Address": "Ville-Haute 1661 103 Grand-Rue Luxembourg ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Sa 10:00-19:00; PH off",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "2",
@@ -31,7 +33,9 @@
         "Full Address": "Paris 75004 52 Rue de Rivoli France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Sa 10:00-20:00; Su 11:00-19:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "3",
@@ -48,7 +52,9 @@
         "Full Address": "Agen 47000 72 Bd de la République France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-19:30",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "4",
@@ -65,7 +71,9 @@
         "Full Address": "Amiens 80000 12 Rue des 3 Cailloux France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-20:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "5",
@@ -150,7 +158,9 @@
         "Full Address": "Bayonne 64100 28 Rue Thiers France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "10",
@@ -184,7 +194,9 @@
         "Full Address": "Beauvais 60000 2 Rue des Jacobins France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Sa 10:00-19:30; Su off",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "12",
@@ -218,7 +230,9 @@
         "Full Address": "Besançon 25000 44 Rue des Granges France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-20:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "14",
@@ -235,7 +249,9 @@
         "Full Address": "Béziers 34500 9 All. Paul Riquet France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Fr 10:00-19:00; Sa 09:30-19:30",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "15",
@@ -252,7 +268,9 @@
         "Full Address": "Caen 14000 Bd Maréchal Leclerc 108 France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-20:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "16",
@@ -269,7 +287,9 @@
         "Full Address": "Cannes 6400 6 Rue du Maréchal Foch France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-20:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "17",
@@ -337,7 +357,9 @@
         "Full Address": "Chambéry 73000 19 Bd de la Colonne France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Sa 10:00-19:30",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "21",
@@ -354,7 +376,9 @@
         "Full Address": "Clermont-Ferrand 63000 25 Pl. de Jaude France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-20:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "22",
@@ -439,7 +463,9 @@
         "Full Address": "La Rochelle 17000 31-39 Rue du Palais France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Su 10:00-19:30",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "27",
@@ -575,7 +601,9 @@
         "Full Address": "Marseille 13001 28 Rue de Bir Hakeim France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Sa 10:00-20:00; PH off",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "35",
@@ -609,7 +637,9 @@
         "Full Address": "Metz 57000 4 Rue Winston Churchill France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-20:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "37",
@@ -643,7 +673,9 @@
         "Full Address": "Montpellier 34000 1 Rue des Pertuisanes France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "39",
@@ -660,7 +692,9 @@
         "Full Address": "Nantes 44000 2-20 Rue de la Marne France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Sa 10:00-20:00; Su off",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "40",
@@ -694,7 +728,9 @@
         "Full Address": "Niort 79000 47 Rue Victor Hugo France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Tu-Sa 10:00-19:00; Mo 14:00-19:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "42",
@@ -711,7 +747,9 @@
         "Full Address": "Orléans 45000 6 Rue Thiers France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-20:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "43",
@@ -728,7 +766,9 @@
         "Full Address": "Pau 64000 14 Cr Bosquet France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-20:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "44",
@@ -745,7 +785,9 @@
         "Full Address": "Perpignan 66000 1 Pl. de la Résistance France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Sa 10:00-19:30",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "45",
@@ -762,7 +804,9 @@
         "Full Address": "Reims 51100 33-45 Rue de Vesle France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-20:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "46",
@@ -779,7 +823,9 @@
         "Full Address": "Rennes 35000 1 Rue de Rohan France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "47",
@@ -813,7 +859,9 @@
         "Full Address": "Rouen 76000 25 Rue Grand Pont France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Fr 09:30-19:30; Sa 09:30-20:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "49",
@@ -830,7 +878,9 @@
         "Full Address": "Saintes 17100 1 Cr National France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Sa 10:00-19:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "50",
@@ -847,7 +897,9 @@
         "Full Address": "Strasbourg 67000 34 Rue du 22 Novembre France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "51",
@@ -864,7 +916,9 @@
         "Full Address": "Tarbes 65000 28 Rue Maréchal Foch France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Sa 10:00-19:30",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "52",
@@ -881,7 +935,9 @@
         "Full Address": "Toulon 83000 9 Bd de Strasbourg France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Sa 10:00-19:30",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "53",
@@ -898,7 +954,9 @@
         "Full Address": "Toulouse 31000 4-8 Rue Lapeyrouse France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "54",
@@ -915,7 +973,9 @@
         "Full Address": "Tours 37000 77 Rue Nationale France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Fr 10:00-19:30; Sa 10:00-20:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "55",
@@ -932,7 +992,9 @@
         "Full Address": "Langon 33210 1 Pl. du Général de Gaulle France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo 14:30-19:30; Tu-Sa 10:00-19:30",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "56",
@@ -1034,7 +1096,9 @@
         "Full Address": "BERGERAC 24100 19 rue de la résistance France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Tu-Sa 09:00-19:00; Mo 10:00-19:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "62",
@@ -1221,7 +1285,9 @@
         "Full Address": "ST JEAN DE LUZ 64500 24 rue Gambetta France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Su 10:00-19:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "73",
@@ -1306,7 +1372,9 @@
         "Full Address": "LE BOUSCAT 33110 7 avenue de la Libération France ",
         "date_add": "",
         "date_upd": "",
-        "icone": "rouge"
+        "icone": "rouge",
+        "opening_hours": "Tu-Fr 10:00-19:00; Sa 09:30-19:00; Su 10:00-19:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "78",
@@ -1544,7 +1612,9 @@
         "Full Address": "BARCELONNETTE 4400 21 rue manuel France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Tu-Sa 09:00-13:00,15:00-19:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "92",
@@ -1867,7 +1937,9 @@
         "Full Address": "BAR LE DUC 55000 12 rue André Maginot France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo 14:00-19:00; Tu-Th 09:00-12:00,14:00-19:00; Fr-Sa 09:00-19:00; Su off",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "111",
@@ -2037,7 +2109,9 @@
         "Full Address": "ST MARTIN DE RE 17410 Boutique N°2 - CC Intermarché France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Su 09:30-19:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "121",
@@ -2564,7 +2638,9 @@
         "Full Address": "DECAZEVILLE 12300 72 rue Cayrade France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Tu-Sa 09:00-19:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "152",
@@ -2700,7 +2776,9 @@
         "Full Address": "RENNES 35700 C.C. Intermarché Longchamps France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Sa 09:30-19:00; PH closed",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "160",
@@ -2955,7 +3033,9 @@
         "Full Address": "ORTHEZ 64300 1 place brossers France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Sa 09:30-19:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "175",
@@ -3244,7 +3324,9 @@
         "Full Address": "PROVINS 77160 20 Place Maréchal Leclerc France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Sa 09:30-19:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "192",
@@ -3482,7 +3564,9 @@
         "Full Address": "LANNION 22300 3 rue des augustins France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Tu-Sa 09:00-19:00; Mo 10:00-12:00,14:00-19:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "206",
@@ -3703,7 +3787,9 @@
         "Full Address": "NANTERRE 92000 59 rue Maurice Thorez France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Tu-Sa 10:00-19:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "219",
@@ -4111,7 +4197,9 @@
         "Full Address": "PARIS 75015 17 Boulevard de Vaugirard France ",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo-Sa 08:00-20:00; Su 10:00-20:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "243",
@@ -4247,7 +4335,9 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo,Sa 09:00-12:00,14:00-17:00; Tu-Fr 09:00-12:00,14:00-19:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "251",
@@ -4451,7 +4541,9 @@
         "Full Address": "2 rue de fontaine 60120 BRETEUIL",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Tu-Fr 09:00-19:00; Sa 09:00-18:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "263",
@@ -4774,7 +4866,9 @@
         "Full Address": "",
         "date_add": "",
         "date_upd": "",
-        "icone": ""
+        "icone": "",
+        "opening_hours": "Mo,Th 08:30-15:30; Tu,Fr 08:30-19:00; Sa 08:00-13:00",
+        "opening_hours_source": "osm"
     },
     {
         "id_store": "282",
