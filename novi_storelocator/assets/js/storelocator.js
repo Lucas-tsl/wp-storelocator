@@ -141,12 +141,13 @@ function getTodayOpeningInfo(openingHours) {
     });
 
     if (!todayRule || /^(off|closed)$/i.test(todayRule)) {
-        return { isOpen: false, hoursText: "Fermé aujourd'hui" };
+        return { isOpen: false, label: 'FERMÉ', detail: "Fermé aujourd'hui" };
     }
 
     const ranges = todayRule.split(',').map(r => r.trim()).filter(r => /^\d{2}:\d{2}-\d{2}:\d{2}$/.test(r));
     if (ranges.length === 0) {
-        return { isOpen: false, hoursText: todayRule };
+        // Format non reconnu (ex: horaires irréguliers) : on affiche le texte brut sans statut.
+        return { isOpen: null, label: null, detail: todayRule };
     }
 
     const nowMinutes = new Date().getHours() * 60 + new Date().getMinutes();
@@ -164,24 +165,34 @@ function getTodayOpeningInfo(openingHours) {
 
     return {
         isOpen,
-        hoursText: isOpen ? ("Ouvert jusqu'à " + closingAt) : ("Fermé (aujourd'hui : " + ranges.join(', ') + ')')
+        label: isOpen ? 'OUVERT' : 'FERMÉ',
+        detail: isOpen ? ("jusqu'à " + closingAt) : ("aujourd'hui : " + ranges.join(', '))
     };
 }
 
-// Bouton "Je découvre" : n'apparaît que si le magasin a une info qui n'est pas
-// déjà visible sur la carte/fiche de base (téléphone, horaires, ou service signature).
-function ficheMagasinHasExtraInfo(store) {
-    if (!store) {
-        return false;
-    }
-    const hasPhone = Boolean(store.phone && String(store.phone).trim() !== '');
-    const hasHours = Boolean(store.opening_hours && String(store.opening_hours).trim() !== '');
-    const hasSignature = store.icone === 'signature';
-    return hasPhone || hasHours || hasSignature;
+// Texte de présentation généré à partir de l'enseigne et de la ville — pas besoin d'une
+// colonne "description" dans le CSV (qui n'existera jamais, cf. discussion projet).
+function guessStoreBrand(name) {
+    const upper = (name || '').toUpperCase();
+    if (upper.includes('GALERIES LAFAYETTE')) return 'Galeries Lafayette';
+    if (upper.includes('BEAUTY SUCCESS')) return 'Beauty Success';
+    if (upper.includes('SO CUT')) return 'SO CUT';
+    if (upper.includes('BHV')) return 'BHV';
+    return null;
 }
 
+function getStorePresentationText(store) {
+    const brand = guessStoreBrand(store.name);
+    const city = store.city || '';
+    return brand
+        ? "Retrouvez Les Senteurs Gourmandes chez " + brand + (city ? " à " + city : "") + " : parfums d'ambiance, bougies gourmandes et idées cadeaux."
+        : "Découvrez l'univers Les Senteurs Gourmandes" + (city ? " à " + city : "") + " : parfums d'ambiance, bougies gourmandes et idées cadeaux.";
+}
+
+// Le bouton "Je découvre" est désormais toujours affiché : chaque fiche a au minimum
+// l'adresse, un texte de présentation et le lien Google Maps à montrer.
 function ficheMagasinButton(store) {
-    if (!ficheMagasinHasExtraInfo(store)) {
+    if (!store) {
         return '';
     }
     return "<a class='sl-btn sl-btn-secondary' href='javascript:void(0)' onclick='event.stopPropagation(); openFicheMagasin(" + store.id_store + ");'>JE DÉCOUVRE</a>";
@@ -217,32 +228,42 @@ function ensureFicheMagasinModal() {
 function openFicheMagasin(idStore) {
     loadStoresData().then(data => {
         const store = data.find(item => String(item.id_store) === String(idStore));
-        if (!ficheMagasinHasExtraInfo(store)) {
+        if (!store) {
             return;
         }
 
         const overlay = ensureFicheMagasinModal();
         const content = overlay.querySelector('.fiche-magasin-modal-content');
         const adresseLigne2 = store.address2 ? ", " + store.address2 : "";
+
+        const todayInfo = getTodayOpeningInfo(store.opening_hours);
+        let statusHtml = '';
+        if (todayInfo && todayInfo.label) {
+            const dotClass = todayInfo.isOpen ? 'dot-open' : 'dot-closed';
+            statusHtml =
+                "<p class='fiche-magasin-modal-status'><span class='status-dot " + dotClass + "'></span>" + todayInfo.label + "</p>" +
+                "<p class='fiche-magasin-modal-hours-detail'>" + todayInfo.detail + "</p>";
+        } else if (todayInfo) {
+            statusHtml = "<p class='fiche-magasin-modal-hours-detail'>" + todayInfo.detail + "</p>";
+        }
+
         const phoneHtml = store.phone
             ? "<p class='fiche-magasin-modal-phone'>Tél. : <a href='tel:" + String(store.phone).replace(/\s+/g, '') + "'>" + store.phone + "</a></p>"
             : "";
         const signatureHtml = store.icone === 'signature'
             ? "<p class='fiche-magasin-modal-signature'>Soins en institut disponibles dans ce magasin</p>"
             : "";
-        const todayInfo = getTodayOpeningInfo(store.opening_hours);
-        const hoursHtml = todayInfo
-            ? "<p class='fiche-magasin-modal-hours " + (todayInfo.isOpen ? 'is-open' : 'is-closed') + "'>" + todayInfo.hoursText + "</p>"
-            : "";
 
         content.innerHTML =
             "<h2>" + store.name + "</h2>" +
             "<p class='fiche-magasin-modal-address'>" + store.address1 + adresseLigne2 + ", " + store.postcode + " " + store.city + "</p>" +
-            hoursHtml +
+            statusHtml +
+            "<p class='fiche-magasin-modal-intro'>" + getStorePresentationText(store) + "</p>" +
             phoneHtml +
             signatureHtml +
             "<div class='fiche-magasin-modal-actions'>" +
                 "<a class='fiche-magasin-modal-btn' href='javascript:void(0)' onclick=\"ouvrirTrajetGoogleMapsCoordonnees(" + store.latitude + "," + store.longitude + ")\">J'Y VAIS</a>" +
+                googleMapsListingLink(store) +
             "</div>";
 
         overlay.classList.add('is-open');

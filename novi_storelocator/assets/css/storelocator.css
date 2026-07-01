@@ -37,12 +37,12 @@
 
 .map-cont a.sl-btn.sl-btn-secondary{
     background-color: transparent;
-    border: 2px solid blueviolet;
-    color: blueviolet;
+    border: 2px solid black;
+    color: black;
     padding: 5px 10px 3px 10px;
 }
 
-.map-cont a.sl-maps-link{
+.sl-maps-link{
     display: block;
     margin-top: 8px;
     font-size: 12px;
@@ -302,13 +302,13 @@
     max-width: 700px;
     height: 60vh;
     border-radius: 20px 20px 0 0;
-    padding: 30px 25px;
+    padding: 32px 28px;
     overflow-y: auto;
     box-sizing: border-box;
     transform: translateY(100%);
     transition: transform 0.25s ease;
     font-family: 'Poppins', sans-serif;
-    color: black;
+    color: #000;
 }
 
 .fiche-magasin-modal-overlay.is-open .fiche-magasin-modal{
@@ -317,62 +317,119 @@
 
 .fiche-magasin-modal-close{
     position: absolute;
-    top: 10px;
-    right: 15px;
+    top: 14px;
+    right: 18px;
     background: none;
     border: none;
-    font-size: 28px;
+    color: #000;
+    font-size: 26px;
     line-height: 1;
     cursor: pointer;
 }
 
+.fiche-magasin-modal h2{
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    margin: 0 0 8px 0;
+    padding-right: 30px;
+    color: #000;
+}
+
 .fiche-magasin-modal-address{
     font-size: 14px;
-    margin-bottom: 15px;
+    color: #444;
+    margin: 0 0 16px 0;
+}
+
+/* Statut ouvert/fermé façon pastille, à l'image de la fiche magasin de référence (Beauty Success) */
+.fiche-magasin-modal-status{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 3px 0;
+    color: #000;
+}
+
+.status-dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.status-dot.dot-open{
+    background: #1a7f37;
+}
+
+.status-dot.dot-closed{
+    background: #b3261e;
+}
+
+.fiche-magasin-modal-hours-detail{
+    font-size: 13px;
+    color: #666;
+    margin: 0 0 16px 0;
+}
+
+.fiche-magasin-modal-intro{
+    font-size: 14px;
+    line-height: 1.6;
+    color: #111;
+    margin: 0 0 16px 0;
+}
+
+.fiche-magasin-modal-phone{
+    font-size: 14px;
+    margin: 0 0 8px 0;
 }
 
 .fiche-magasin-modal-phone a{
-    color: black;
+    color: #000;
     font-weight: 700;
     text-decoration: none;
-}
-
-.fiche-magasin-modal-hours{
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.fiche-magasin-modal-hours.is-open{
-    color: #1a7f37;
-}
-
-.fiche-magasin-modal-hours.is-closed{
-    color: #b3261e;
+    border-bottom: 1px solid #000;
 }
 
 .fiche-magasin-modal-signature{
-    color: #bd7639;
+    font-size: 13px;
     font-weight: 700;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 3px 12px;
+    margin: 0 0 12px 0;
 }
 
 .fiche-magasin-modal-actions{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 15px;
-    margin-top: 15px;
+    gap: 16px;
+    margin-top: 18px;
 }
 
 /* Bouton autonome (ne dépend pas de .map-cont a.sl-btn, la modale est hors de ce conteneur) */
 .fiche-magasin-modal-btn{
     display: inline-block;
-    padding: 9px 20px 7px 20px;
+    padding: 9px 22px 7px 22px;
     background-color: #fff;
     color: #000;
     border: 2px solid #000;
     border-radius: 50px;
     font-weight: 700;
+    letter-spacing: 0.3px;
     text-decoration: none;
+}
+
+.fiche-magasin-modal-actions .sl-maps-link{
+    margin: 0;
 }
 
 body.fiche-magasin-modal-open{
