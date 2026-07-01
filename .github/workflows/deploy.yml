@@ -1,0 +1,27 @@
+name: Deploy plugin (SFTP)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "novi_storelocator/**"
+  workflow_dispatch: {}
+
+jobs:
+  deploy:
+    name: Deploy to WordPress hosting
+    runs-on: ubuntu-latest
+    needs: []
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy novi_storelocator via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
+        with:
+          server: ${{ secrets.SFTP_HOST }}
+          port: ${{ secrets.SFTP_PORT || 22 }}
+          username: ${{ secrets.SFTP_USERNAME }}
+          password: ${{ secrets.SFTP_PASSWORD }}
+          local_path: "novi_storelocator/*"
+          remote_path: ${{ secrets.SFTP_REMOTE_PATH }}
+          sftpArgs: "-o ConnectTimeout=15"

@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  php-lint:
+    name: Lint PHP
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: "8.1"
+
+      - name: Check PHP syntax
+        run: |
+          set -e
+          while IFS= read -r -d '' f; do
+            php -l "$f"
+          done < <(find . -name "*.php" -not -path "./node_modules/*" -print0)
+
+  validate-data:
+    name: Validate JSON & JS
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Validate JSON files
+        run: |
+          set -e
+          while IFS= read -r -d '' f; do
+            node -e "JSON.parse(require('fs').readFileSync(process.argv[1], 'utf8'))" "$f"
+            echo "OK $f"
+          done < <(find . -name "*.json" -not -path "./node_modules/*" -print0)
+
+      - name: Check JS syntax
+        run: |
+          set -e
+          # storelocator.js is loaded as an ES module (<script type="module">), so it must
+          # be checked as ESM (node --check alone assumes CommonJS and rejects export/import).
+          while IFS= read -r -d '' f; do
+            node --input-type=module --check < "$f"
+          done < <(find . -name "*.js" -not -path "./node_modules/*" -print0)
