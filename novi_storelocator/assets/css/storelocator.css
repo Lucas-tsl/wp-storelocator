@@ -265,3 +265,88 @@
     font-weight: 700;
     text-decoration: none;
 }
+
+/* ------------------ MODALE "JE DÉCOUVRE" ------------------ */
+
+.fiche-magasin-modal-overlay{
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+    z-index: 100000;
+}
+
+.fiche-magasin-modal-overlay.is-open{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.fiche-magasin-modal{
+    position: relative;
+    background: #fff;
+    width: 100%;
+    max-width: 700px;
+    height: 60vh;
+    border-radius: 20px 20px 0 0;
+    padding: 30px 25px;
+    overflow-y: auto;
+    box-sizing: border-box;
+    transform: translateY(100%);
+    transition: transform 0.25s ease;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.fiche-magasin-modal-overlay.is-open .fiche-magasin-modal{
+    transform: translateY(0);
+}
+
+.fiche-magasin-modal-close{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.fiche-magasin-modal-address{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.fiche-magasin-modal-desc{
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.fiche-magasin-modal-actions{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+
+.fiche-magasin-modal-link{
+    color: blueviolet;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+body.fiche-magasin-modal-open{
+    overflow: hidden;
+}
+
+@media screen and (max-width: 599px) {
+    .fiche-magasin-modal{
+        height: 70vh;
+        border-radius: 16px 16px 0 0;
+    }
+}

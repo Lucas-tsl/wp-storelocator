@@ -73,14 +73,86 @@ let btncolor = settings['btncolor']
 let btncolorbg = settings['btncolorbg']
 let ficheurl = settings['ficheurl']
 
-// Bouton "Je découvre" vers la fiche magasin (SEO/GEO) ; masqué si l'URL n'est pas configurée
-function ficheMagasinButton(idStore) {
-    if (!ficheurl || !idStore) {
+// Bouton "Je découvre" : n'apparaît que si le magasin a un contenu éditorial
+// (description) à montrer, pour éviter d'ouvrir une fiche vide.
+function ficheMagasinButton(store) {
+    if (!store || !store.description) {
         return '';
     }
-    const separator = ficheurl.indexOf('?') === -1 ? '?' : '&';
-    const url = ficheurl + separator + 'magasin=' + encodeURIComponent(idStore);
-    return "<a class='sl-btn sl-btn-secondary' href='" + url + "' onclick='event.stopPropagation();'>JE DÉCOUVRE</a>";
+    return "<a class='sl-btn sl-btn-secondary' href='javascript:void(0)' onclick='event.stopPropagation(); openFicheMagasin(" + store.id_store + ");'>JE DÉCOUVRE</a>";
+}
+
+let ficheMagasinModal = null;
+
+function ensureFicheMagasinModal() {
+    if (ficheMagasinModal) {
+        return ficheMagasinModal;
+    }
+
+    const overlay = document.createElement('div');
+    overlay.className = 'fiche-magasin-modal-overlay';
+    overlay.innerHTML =
+        "<div class='fiche-magasin-modal' role='dialog' aria-modal='true'>" +
+            "<button type='button' class='fiche-magasin-modal-close' aria-label='Fermer'>&times;</button>" +
+            "<div class='fiche-magasin-modal-content'></div>" +
+        "</div>";
+
+    overlay.addEventListener('click', (event) => {
+        if (event.target === overlay) {
+            closeFicheMagasinModal();
+        }
+    });
+    overlay.querySelector('.fiche-magasin-modal-close').addEventListener('click', closeFicheMagasinModal);
+
+    document.body.appendChild(overlay);
+    ficheMagasinModal = overlay;
+    return overlay;
+}
+
+function openFicheMagasin(idStore) {
+    loadStoresData().then(data => {
+        const store = data.find(item => String(item.id_store) === String(idStore));
+        if (!store || !store.description) {
+            return;
+        }
+
+        const overlay = ensureFicheMagasinModal();
+        const content = overlay.querySelector('.fiche-magasin-modal-content');
+        const adresseLigne2 = store.address2 ? ", " + store.address2 : "";
+        const ficheLink = ficheurl
+            ? "<a class='fiche-magasin-modal-link' href='" + ficheurl + (ficheurl.indexOf('?') === -1 ? '?' : '&') + "magasin=" + encodeURIComponent(store.id_store) + "'>Voir la fiche complète</a>"
+            : "";
+
+        content.innerHTML =
+            "<h2>" + store.name + "</h2>" +
+            "<p class='fiche-magasin-modal-address'>" + store.address1 + adresseLigne2 + ", " + store.postcode + " " + store.city + "</p>" +
+            "<p class='fiche-magasin-modal-desc'>" + store.description + "</p>" +
+            "<div class='fiche-magasin-modal-actions'>" +
+                "<a class='sl-btn' href='javascript:void(0)' onclick=\"ouvrirTrajetGoogleMapsCoordonnees(" + store.latitude + "," + store.longitude + ")\">J'Y VAIS</a>" +
+                ficheLink +
+            "</div>";
+
+        overlay.classList.add('is-open');
+        document.body.classList.add('fiche-magasin-modal-open');
+    });
+}
+
+function closeFicheMagasinModal() {
+    if (ficheMagasinModal) {
+        ficheMagasinModal.classList.remove('is-open');
+        document.body.classList.remove('fiche-magasin-modal-open');
+    }
+}
+
+document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+        closeFicheMagasinModal();
+    }
+});
+
+if (typeof window !== 'undefined') {
+    window.openFicheMagasin = openFicheMagasin;
+    window.closeFicheMagasinModal = closeFicheMagasinModal;
 }
 
 if (listInfo) {
@@ -218,7 +290,7 @@ if (hasStoreLocatorDom && typeof L !== 'undefined') {
                             var signature = "";
                         }
 
-                        marker[i].bindPopup("<div class='popup-marker'><div class='popup-info'><b>"+obj.name+"</b><b>"+obj.address1+", "+obj.postcode+" "+obj.city+"</b>"+adress2texttip + signature + "<div class='sl-card-actions'><a class='sl-btn' style='color:"+btncolor+"; background-color:"+btncolorbg+";' onclick='event.stopPropagation(); ouvrirTrajetGoogleMapsCoordonnees("+obj.latitude+","+obj.longitude+")'>J'Y VAIS</a>" + ficheMagasinButton(obj.id_store) + "</div></div></div>");
+                        marker[i].bindPopup("<div class='popup-marker'><div class='popup-info'><b>"+obj.name+"</b><b>"+obj.address1+", "+obj.postcode+" "+obj.city+"</b>"+adress2texttip + signature + "<div class='sl-card-actions'><a class='sl-btn' style='color:"+btncolor+"; background-color:"+btncolorbg+";' onclick='event.stopPropagation(); ouvrirTrajetGoogleMapsCoordonnees("+obj.latitude+","+obj.longitude+")'>J'Y VAIS</a>" + ficheMagasinButton(obj) + "</div></div></div>");
                     }
                 }
             })
@@ -602,7 +674,7 @@ function generate_mag_list(c_com, c_dep, marker_ids, data_found) {
                 signature = "<b style='color: #bd7639'>soins en institut</b><br>";
             }
 
-            listInfo.innerHTML += "<div class='sl-card' id='card-" + k + "' onclick='marker_localize(" + marker_ids[k] + ")'><div class='sl-card-title' id='card-title-" + k + "'>" + data_found[k].name + "</div><div class='sl-card-subtitle' id='card-subtitle-" + k + "'>" + data_found[k].address1 + ", " + data_found[k].postcode + " " + data_found[k].city + "</div>" + adress2text + signature + "<div class='sl-card-actions'><a class='sl-btn' style='margin-top:15px; color:" + btncolor + "; background-color:" + btncolorbg + ";' onclick='event.stopPropagation(); ouvrirTrajetGoogleMapsCoordonnees(" + data_found[k].latitude + ", " + data_found[k].longitude + ")'>J'Y VAIS</a>" + ficheMagasinButton(data_found[k].id_store) + "</div></div>";
+            listInfo.innerHTML += "<div class='sl-card' id='card-" + k + "' onclick='marker_localize(" + marker_ids[k] + ")'><div class='sl-card-title' id='card-title-" + k + "'>" + data_found[k].name + "</div><div class='sl-card-subtitle' id='card-subtitle-" + k + "'>" + data_found[k].address1 + ", " + data_found[k].postcode + " " + data_found[k].city + "</div>" + adress2text + signature + "<div class='sl-card-actions'><a class='sl-btn' style='margin-top:15px; color:" + btncolor + "; background-color:" + btncolorbg + ";' onclick='event.stopPropagation(); ouvrirTrajetGoogleMapsCoordonnees(" + data_found[k].latitude + ", " + data_found[k].longitude + ")'>J'Y VAIS</a>" + ficheMagasinButton(data_found[k]) + "</div></div>";
         }
     }
 }

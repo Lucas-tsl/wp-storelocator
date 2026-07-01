@@ -576,10 +576,13 @@ function storelocator_page2() {
                 </td>
             </tr>
             <tr valign="top">
-                <th scope="row">URL de la page fiche magasin :</th>
+                <th scope="row">URL de la page fiche magasin (optionnel) :</th>
                 <td>
                     <input type="text" name="ficheurl" value="<?php echo isset($data['ficheurl']) ? esc_attr($data['ficheurl']) : ''; ?>" placeholder="ex: https://lessenteursgourmandes.fr/fiche-magasin/" style="width:400px;" />
-                    <p class="description">Page contenant le shortcode [fiche_magasin]. Le bouton "Je découvre" y renverra avec le paramètre ?magasin=&lt;id_store&gt;.</p>
+                    <p class="description">
+                        Page contenant le shortcode [fiche_magasin] (pour référencement Google). Si renseignée, un lien "Voir la fiche complète" apparaît dans la fenêtre "Je découvre".<br>
+                        Le bouton "Je découvre" n'apparaît que pour les magasins ayant une colonne <code>description</code> renseignée dans le fichier CSV : sans ce texte, aucune fenêtre ne s'ouvrirait, donc le bouton reste masqué.
+                    </p>
                 </td>
             </tr>
         </table>
