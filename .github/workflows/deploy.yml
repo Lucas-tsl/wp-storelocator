@@ -25,3 +25,6 @@ jobs:
           local_path: "novi_storelocator/*"
           remote_path: ${{ secrets.SFTP_REMOTE_PATH }}
           sftpArgs: "-o ConnectTimeout=15"
+          # L'hébergement n'autorise pas l'exécution de commandes shell sur la connexion SSH
+          # (compte SFTP restreint) : "exec request failed on channel 0" sans ce mode.
+          sftp_only: true
