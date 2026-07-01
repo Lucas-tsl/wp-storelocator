@@ -182,7 +182,7 @@ function guessStoreBrand(name) {
 }
 
 function getStorePresentationText(store) {
-    const brand = guessStoreBrand(store.name);
+    const brand = store.brand_group || guessStoreBrand(store.name);
     const city = store.city || '';
     return brand
         ? "Retrouvez Les Senteurs Gourmandes chez " + brand + (city ? " à " + city : "") + " : parfums d'ambiance, bougies gourmandes et idées cadeaux."
@@ -254,11 +254,23 @@ function openFicheMagasin(idStore) {
             ? "<p class='fiche-magasin-modal-signature'>Soins en institut disponibles dans ce magasin</p>"
             : "";
 
+        const brandHtml = (store.brand_description || store.brand_image)
+            ? "<div class='fiche-magasin-modal-brand'>" +
+                (store.brand_image ? "<img class='fiche-magasin-modal-brand-logo' src='" + store.brand_image + "' alt='" + (store.brand_group || '') + "' loading='lazy'>" : "") +
+                (store.brand_description
+                    ? "<p class='fiche-magasin-modal-brand-desc'>" + store.brand_description +
+                      (store.brand_website ? " <a href='" + store.brand_website + "' target='_blank' rel='noopener'>En savoir plus</a>" : "") +
+                      "</p>"
+                    : "") +
+              "</div>"
+            : "";
+
         content.innerHTML =
             "<h2>" + store.name + "</h2>" +
             "<p class='fiche-magasin-modal-address'>" + store.address1 + adresseLigne2 + ", " + store.postcode + " " + store.city + "</p>" +
             statusHtml +
             "<p class='fiche-magasin-modal-intro'>" + getStorePresentationText(store) + "</p>" +
+            brandHtml +
             phoneHtml +
             signatureHtml +
             "<div class='fiche-magasin-modal-actions'>" +
