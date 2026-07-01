@@ -28,6 +28,20 @@
     text-decoration: none;
 }
 
+.map-cont .sl-card-actions{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.map-cont a.sl-btn.sl-btn-secondary{
+    background-color: transparent;
+    border: 2px solid blueviolet;
+    color: blueviolet;
+    padding: 5px 10px 3px 10px;
+}
+
 .store-locator .hidden{
     display:none;
 }
@@ -174,4 +188,80 @@
     .store-locator #map {
         width: 100%;
     }
+}
+
+/* ------------------ FICHE MAGASIN (maquette) ------------------ */
+
+.fiche-magasin{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.fiche-magasin-empty{
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.fiche-magasin-header h1{
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.fiche-magasin-address{
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.fiche-magasin-intro{
+    background: #f7f5fa;
+    border-radius: 20px;
+    padding: 20px 25px;
+    margin-bottom: 25px;
+}
+
+.fiche-magasin-products{
+    margin-bottom: 25px;
+}
+
+.fiche-magasin-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.fiche-magasin-map,
+.fiche-magasin-faq{
+    flex: 1 1 320px;
+}
+
+.fiche-magasin-map-canvas{
+    height: 280px;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.fiche-magasin-faq .faq-item{
+    border-bottom: 1px solid #e3e3e3;
+    padding: 10px 0;
+}
+
+.fiche-magasin-faq .faq-q{
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.fiche-magasin-back{
+    margin-top: 10px;
+}
+
+.fiche-magasin-back a{
+    color: blueviolet;
+    font-weight: 700;
+    text-decoration: none;
 }

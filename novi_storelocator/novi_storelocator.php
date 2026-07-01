@@ -61,7 +61,8 @@ function enqueue_storelocator_script() {
     $settings = wp_parse_args($settings, array(
         'apikey' => '',
         'btncolor' => '',
-        'btncolorbg' => ''
+        'btncolorbg' => '',
+        'ficheurl' => ''
     ));
 
     $script_version = filemtime(plugin_dir_path(__FILE__) . 'assets/js/storelocator.js');
@@ -102,6 +103,201 @@ function shortcode_html() {
 }
 // Enregistrement du shortcode
 add_shortcode('store_locator', 'shortcode_html');
+
+// ------------------ FICHE MAGASIN (SEO/GEO) ------------------
+
+// Autorise ?magasin=<id_store> comme query var WordPress reconnue
+add_filter('query_vars', function ($vars) {
+    $vars[] = 'magasin';
+    return $vars;
+});
+
+function novi_get_store_by_id($id_store) {
+    $json_path = NOVI_JSON_DIR . 'stores.json';
+    if (!file_exists($json_path)) {
+        return null;
+    }
+
+    $stores = json_decode(file_get_contents($json_path), true);
+    if (!is_array($stores)) {
+        return null;
+    }
+
+    foreach ($stores as $store) {
+        if (isset($store['id_store']) && (string) $store['id_store'] === (string) $id_store) {
+            return $store;
+        }
+    }
+
+    return null;
+}
+
+// Enqueue Leaflet + mini-carte uniquement sur la page contenant [fiche_magasin]
+function enqueue_fiche_magasin_assets() {
+    if (is_admin() || !is_singular()) {
+        return;
+    }
+
+    global $post;
+    if (!$post || !has_shortcode($post->post_content, 'fiche_magasin')) {
+        return;
+    }
+
+    wp_enqueue_style('leaflet', 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css', array(), '1.9.4');
+    wp_enqueue_script('leaflet', 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js', array(), '1.9.4', true);
+
+    $plugin_path = plugin_dir_url(__FILE__);
+    wp_enqueue_style('storelocator', $plugin_path . 'assets/css/storelocator.css', array(), filemtime(plugin_dir_path(__FILE__) . 'assets/css/storelocator.css'));
+
+    $settings = updData();
+    if (!is_array($settings)) {
+        $settings = array();
+    }
+    $settings = wp_parse_args($settings, array('apikey' => ''));
+
+    $script_version = filemtime(plugin_dir_path(__FILE__) . 'assets/js/fiche-magasin.js');
+    wp_enqueue_script('fiche-magasin', $plugin_path . 'assets/js/fiche-magasin.js', array('leaflet'), $script_version, true);
+    wp_localize_script('fiche-magasin', 'fiche_magasin_vars', array(
+        'apikey' => $settings['apikey'],
+    ));
+}
+add_action('wp_enqueue_scripts', 'enqueue_fiche_magasin_assets');
+
+// Titre de la page adapté au magasin affiché (SEO)
+add_filter('document_title_parts', function ($title_parts) {
+    if (!is_singular() || get_query_var('magasin') === '') {
+        return $title_parts;
+    }
+
+    $store = novi_get_store_by_id(get_query_var('magasin'));
+    if ($store && !empty($store['name'])) {
+        $title_parts['title'] = $store['name'] . ' – Les Senteurs Gourmandes';
+    }
+
+    return $title_parts;
+});
+
+function fiche_magasin_shortcode() {
+    $id_store = get_query_var('magasin');
+    if ($id_store === '' || $id_store === false) {
+        $id_store = isset($_GET['magasin']) ? sanitize_text_field(wp_unslash($_GET['magasin'])) : '';
+    }
+
+    $retour_url = home_url('/ou-nous-trouver/');
+
+    if ($id_store === '') {
+        return "<div class='fiche-magasin fiche-magasin-empty'><p>Sélectionnez un magasin depuis <a href='" . esc_url($retour_url) . "'>la carte des magasins</a> pour afficher sa fiche.</p></div>";
+    }
+
+    $store = novi_get_store_by_id($id_store);
+
+    if (!$store) {
+        return "<div class='fiche-magasin fiche-magasin-empty'><p>Ce magasin est introuvable. <a href='" . esc_url($retour_url) . "'>Retourner à la carte des magasins</a>.</p></div>";
+    }
+
+    $name = isset($store['name']) ? $store['name'] : '';
+    $address1 = isset($store['address1']) ? $store['address1'] : '';
+    $address2 = isset($store['address2']) ? $store['address2'] : '';
+    $postcode = isset($store['postcode']) ? $store['postcode'] : '';
+    $city = isset($store['city']) ? $store['city'] : '';
+    $country = isset($store['country']) ? $store['country'] : '';
+    $phone = isset($store['phone']) ? $store['phone'] : '';
+    $lat = isset($store['latitude']) ? $store['latitude'] : '';
+    $lon = isset($store['longitude']) ? $store['longitude'] : '';
+
+    // Champ optionnel : à ajouter au Google Sheet/CSV quand le contenu éditorial sera rédigé
+    $description = !empty($store['description'])
+        ? $store['description']
+        : sprintf(
+            "Découvrez l'univers Les Senteurs Gourmandes chez %s, %s. Parfums d'ambiance, bougies et idées cadeaux à retrouver en magasin.",
+            $name,
+            $city
+        );
+
+    $map_id = 'fiche-map-' . preg_replace('/[^a-zA-Z0-9_-]/', '', (string) $id_store);
+
+    $schema = array(
+        '@context' => 'https://schema.org',
+        '@type' => 'Store',
+        'name' => $name,
+        'address' => array(
+            '@type' => 'PostalAddress',
+            'streetAddress' => trim($address1 . ' ' . $address2),
+            'postalCode' => $postcode,
+            'addressLocality' => $city,
+            'addressCountry' => $country,
+        ),
+    );
+    if ($lat !== '' && $lon !== '') {
+        $schema['geo'] = array(
+            '@type' => 'GeoCoordinates',
+            'latitude' => $lat,
+            'longitude' => $lon,
+        );
+    }
+    if ($phone) {
+        $schema['telephone'] = $phone;
+    }
+
+    ob_start();
+    ?>
+    <div class="fiche-magasin">
+        <div class="fiche-magasin-header">
+            <h1><?php echo esc_html($name); ?> &ndash; Les Senteurs Gourmandes</h1>
+            <p class="fiche-magasin-address">
+                <?php echo esc_html($address1); ?><?php if ($address2) : ?>, <?php echo esc_html($address2); ?><?php endif; ?><br>
+                <?php echo esc_html(trim($postcode . ' ' . $city)); ?><?php if ($country) : ?>, <?php echo esc_html($country); ?><?php endif; ?>
+                <?php if ($phone) : ?><br>Tél. : <?php echo esc_html($phone); ?><?php endif; ?>
+            </p>
+        </div>
+
+        <div class="fiche-magasin-intro">
+            <p><?php echo esc_html($description); ?></p>
+        </div>
+
+        <div class="fiche-magasin-products">
+            <h2>Nos produits phares en magasin</h2>
+            <?php
+            // Point d'extension : un thème/plugin tiers peut injecter ici une sélection de produits par magasin
+            $products_html = apply_filters('novi_fiche_magasin_products', '', $store);
+            if ($products_html !== '') {
+                echo $products_html;
+            } else {
+                echo '<p>Parfums d\'ambiance, bougies gourmandes et coffrets cadeaux vous attendent chez Les Senteurs Gourmandes ' . esc_html($city) . '.</p>';
+            }
+            ?>
+        </div>
+
+        <div class="fiche-magasin-bottom">
+            <?php if ($lat !== '' && $lon !== '') : ?>
+            <div class="fiche-magasin-map">
+                <h2>Accès</h2>
+                <div id="<?php echo esc_attr($map_id); ?>" class="fiche-magasin-map-canvas" data-lat="<?php echo esc_attr($lat); ?>" data-lon="<?php echo esc_attr($lon); ?>" data-name="<?php echo esc_attr($name); ?>"></div>
+            </div>
+            <?php endif; ?>
+            <div class="fiche-magasin-faq">
+                <h2>Questions fréquentes</h2>
+                <div class="faq-item">
+                    <p class="faq-q">Comment se rendre chez <?php echo esc_html($name); ?> ?</p>
+                    <p class="faq-a">Rendez-vous au <?php echo esc_html(trim($address1 . ', ' . $postcode . ' ' . $city)); ?>. Utilisez le bouton "J'y vais" depuis la carte des magasins pour lancer votre itinéraire.</p>
+                </div>
+                <?php if ($phone) : ?>
+                <div class="faq-item">
+                    <p class="faq-q">Comment contacter ce magasin ?</p>
+                    <p class="faq-a">Vous pouvez appeler le <?php echo esc_html($phone); ?>.</p>
+                </div>
+                <?php endif; ?>
+            </div>
+        </div>
+
+        <p class="fiche-magasin-back"><a href="<?php echo esc_url($retour_url); ?>">&larr; Retour à la carte des magasins</a></p>
+
+        <script type="application/ld+json"><?php echo wp_json_encode($schema); ?></script>
+    </div>
+    <?php
+    return ob_get_clean();
+}
+add_shortcode('fiche_magasin', 'fiche_magasin_shortcode');
 
 // Créer une page d'administration pour l'upload CSV
 function custom_csv_upload_page() {
@@ -170,7 +366,8 @@ if(isset($_POST['submit'])){
             $data = array(
                 'apikey' => $_POST['apikey'],
                 'btncolor' => $_POST['btncolor'],
-                'btncolorbg' => $_POST['btncolorbg']
+                'btncolorbg' => $_POST['btncolorbg'],
+                'ficheurl' => isset($_POST['ficheurl']) ? esc_url_raw($_POST['ficheurl']) : ''
             );
             arr_to_json($data);
         }
@@ -376,6 +573,13 @@ function storelocator_page2() {
                 <th scope="row">Couleur fond des boutons : (hexadecimal)</th>
                 <td>
                     <input type="text" name="btncolorbg" value="<?php echo $data['btncolorbg']; ?>" placeholder="ex: #ff0000" />
+                </td>
+            </tr>
+            <tr valign="top">
+                <th scope="row">URL de la page fiche magasin :</th>
+                <td>
+                    <input type="text" name="ficheurl" value="<?php echo isset($data['ficheurl']) ? esc_attr($data['ficheurl']) : ''; ?>" placeholder="ex: https://lessenteursgourmandes.fr/fiche-magasin/" style="width:400px;" />
+                    <p class="description">Page contenant le shortcode [fiche_magasin]. Le bouton "Je découvre" y renverra avec le paramètre ?magasin=&lt;id_store&gt;.</p>
                 </td>
             </tr>
         </table>
