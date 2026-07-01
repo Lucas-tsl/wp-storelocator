@@ -327,6 +327,17 @@
     line-height: 1.5;
 }
 
+.fiche-magasin-modal-phone a{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.fiche-magasin-modal-signature{
+    color: #bd7639;
+    font-weight: 700;
+}
+
 .fiche-magasin-modal-actions{
     display: flex;
     flex-wrap: wrap;

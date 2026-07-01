@@ -73,10 +73,19 @@ let btncolor = settings['btncolor']
 let btncolorbg = settings['btncolorbg']
 let ficheurl = settings['ficheurl']
 
-// Bouton "Je découvre" : n'apparaît que si le magasin a un contenu éditorial
-// (description) à montrer, pour éviter d'ouvrir une fiche vide.
+// Bouton "Je découvre" : n'apparaît que si le magasin a une info qui n'est pas
+// déjà visible sur la carte/fiche de base (téléphone, ou service signature).
+function ficheMagasinHasExtraInfo(store) {
+    if (!store) {
+        return false;
+    }
+    const hasPhone = Boolean(store.phone && String(store.phone).trim() !== '');
+    const hasSignature = store.icone === 'signature';
+    return hasPhone || hasSignature;
+}
+
 function ficheMagasinButton(store) {
-    if (!store || !store.description) {
+    if (!ficheMagasinHasExtraInfo(store)) {
         return '';
     }
     return "<a class='sl-btn sl-btn-secondary' href='javascript:void(0)' onclick='event.stopPropagation(); openFicheMagasin(" + store.id_store + ");'>JE DÉCOUVRE</a>";
@@ -112,7 +121,7 @@ function ensureFicheMagasinModal() {
 function openFicheMagasin(idStore) {
     loadStoresData().then(data => {
         const store = data.find(item => String(item.id_store) === String(idStore));
-        if (!store || !store.description) {
+        if (!ficheMagasinHasExtraInfo(store)) {
             return;
         }
 
@@ -122,11 +131,18 @@ function openFicheMagasin(idStore) {
         const ficheLink = ficheurl
             ? "<a class='fiche-magasin-modal-link' href='" + ficheurl + (ficheurl.indexOf('?') === -1 ? '?' : '&') + "magasin=" + encodeURIComponent(store.id_store) + "'>Voir la fiche complète</a>"
             : "";
+        const phoneHtml = store.phone
+            ? "<p class='fiche-magasin-modal-phone'>Tél. : <a href='tel:" + String(store.phone).replace(/\s+/g, '') + "'>" + store.phone + "</a></p>"
+            : "";
+        const signatureHtml = store.icone === 'signature'
+            ? "<p class='fiche-magasin-modal-signature'>Soins en institut disponibles dans ce magasin</p>"
+            : "";
 
         content.innerHTML =
             "<h2>" + store.name + "</h2>" +
             "<p class='fiche-magasin-modal-address'>" + store.address1 + adresseLigne2 + ", " + store.postcode + " " + store.city + "</p>" +
-            "<p class='fiche-magasin-modal-desc'>" + store.description + "</p>" +
+            phoneHtml +
+            signatureHtml +
             "<div class='fiche-magasin-modal-actions'>" +
                 "<a class='sl-btn' href='javascript:void(0)' onclick=\"ouvrirTrajetGoogleMapsCoordonnees(" + store.latitude + "," + store.longitude + ")\">J'Y VAIS</a>" +
                 ficheLink +
