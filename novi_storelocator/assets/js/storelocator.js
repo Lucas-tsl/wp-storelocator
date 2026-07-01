@@ -71,7 +71,6 @@ function loadStoresData() {
 let key = settings['apikey']
 let btncolor = settings['btncolor']
 let btncolorbg = settings['btncolorbg']
-let ficheurl = settings['ficheurl']
 
 // Bouton "Je découvre" : n'apparaît que si le magasin a une info qui n'est pas
 // déjà visible sur la carte/fiche de base (téléphone, ou service signature).
@@ -128,9 +127,6 @@ function openFicheMagasin(idStore) {
         const overlay = ensureFicheMagasinModal();
         const content = overlay.querySelector('.fiche-magasin-modal-content');
         const adresseLigne2 = store.address2 ? ", " + store.address2 : "";
-        const ficheLink = ficheurl
-            ? "<a class='fiche-magasin-modal-link' href='" + ficheurl + (ficheurl.indexOf('?') === -1 ? '?' : '&') + "magasin=" + encodeURIComponent(store.id_store) + "'>Voir la fiche complète</a>"
-            : "";
         const phoneHtml = store.phone
             ? "<p class='fiche-magasin-modal-phone'>Tél. : <a href='tel:" + String(store.phone).replace(/\s+/g, '') + "'>" + store.phone + "</a></p>"
             : "";
@@ -144,8 +140,7 @@ function openFicheMagasin(idStore) {
             phoneHtml +
             signatureHtml +
             "<div class='fiche-magasin-modal-actions'>" +
-                "<a class='sl-btn' href='javascript:void(0)' onclick=\"ouvrirTrajetGoogleMapsCoordonnees(" + store.latitude + "," + store.longitude + ")\">J'Y VAIS</a>" +
-                ficheLink +
+                "<a class='fiche-magasin-modal-btn' href='javascript:void(0)' onclick=\"ouvrirTrajetGoogleMapsCoordonnees(" + store.latitude + "," + store.longitude + ")\">J'Y VAIS</a>" +
             "</div>";
 
         overlay.classList.add('is-open');

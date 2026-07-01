@@ -322,11 +322,6 @@
     margin-bottom: 15px;
 }
 
-.fiche-magasin-modal-desc{
-    margin-bottom: 20px;
-    line-height: 1.5;
-}
-
 .fiche-magasin-modal-phone a{
     color: black;
     font-weight: 700;
@@ -343,12 +338,19 @@
     flex-wrap: wrap;
     align-items: center;
     gap: 15px;
+    margin-top: 15px;
 }
 
-.fiche-magasin-modal-link{
-    color: blueviolet;
+/* Bouton autonome (ne dépend pas de .map-cont a.sl-btn, la modale est hors de ce conteneur) */
+.fiche-magasin-modal-btn{
+    display: inline-block;
+    padding: 9px 20px 7px 20px;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 50px;
     font-weight: 700;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 body.fiche-magasin-modal-open{
