@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+
+# Uploads temporaires WordPress (générés par l'upload CSV, pas du code source)
+novi_storelocator/assets/json/old_stores.json
+
+# Contient une clé API en clair (MapTiler) : ne jamais committer en public
+novi_storelocator/assets/json/settings/settings.json
